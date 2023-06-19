@@ -77,18 +77,20 @@ link {
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
+  line-height: 1.07;
+  text-align: center;
 
   color: #ffffff;
 }
 .hero-button {
-font-family: "Roboto", sans-serif;
-    background-color: var(--items-logo-color);
+  font-family: "Roboto", sans-serif;
+  background-color: var(--items-logo-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
-  cursor: pointer
+  cursor: pointer;
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -135,5 +137,4 @@ font-family: "Roboto", sans-serif;
   color: #f4f4fd;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  
 }
