@@ -74,17 +74,21 @@ link {
 .hero-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.7;
+  line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
+
   color: #ffffff;
 }
 .hero-button {
-  background-color: var(--items-logo-color);
+font-family: "Roboto", sans-serif;
+    background-color: var(--items-logo-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
+  cursor: pointer
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -98,6 +102,8 @@ link {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
   color: var(--brand-color);
 }
 
@@ -109,6 +115,9 @@ link {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
   color: var(--brand-color);
 }
 .team-item {
@@ -124,4 +133,7 @@ link {
 }
 .footer-text {
   color: #f4f4fd;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  
 }
