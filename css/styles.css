@@ -1,4 +1,4 @@
-/* common styles */
+                                    /* COMMON STYLES */
 :root {
   --main-background-color: #ffffff;
   --brand-color: #2e2f42;
@@ -39,8 +39,7 @@ link {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-
-/* header */
+                                         /* header */
 .header-logo-studio {
   color: var(--brand-color);
 }
@@ -66,8 +65,20 @@ link {
 .address-link:focus {
   color: var(--active-hover-color);
 }
-
-/* hero section */
+                                          /* footer */
+.footer {
+  background-color: var(--brand-color);
+}
+.footer-logo-studio {
+  color: #f4f4fd;
+}
+.footer-text {
+  color: #f4f4fd;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+                                        /* MAIN PAGE */
+                                        /* hero section */
 .hero-section {
   background-color: var(--brand-color);
 }
@@ -97,9 +108,9 @@ link {
   background-color: var(--active-hover-color);
 }
 
-/* benefits section */
+                                      /* benefits section */
 
-/* knowledges section */
+                                    /* knowledges section */
 .knowledges-title {
   font-weight: 700;
   font-size: 36px;
@@ -126,15 +137,19 @@ link {
   background-color: #ffffff;
 }
 
-/* footer */
-.footer {
-  background-color: var(--brand-color);
-}
-.footer-logo-studio {
-  color: #f4f4fd;
-}
-.footer-text {
-  color: #f4f4fd;
+                                      /* PORTFOLIO PAGE */
+                                      /* filter section */
+.filter-button{
+  font-weight: 500;
+  font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  color: var(--items-logo-color);
+  background-color: #F4F4FD;
+}
+.filter-button:hover,
+.filter-button:focus {
+  background-color: var(--active-hover-color);
+  color: #FFFFFF;
 }
