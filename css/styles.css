@@ -4,6 +4,7 @@
   --brand-color: #2e2f42;
   --items-logo-color: #4d5ae5;
   --active-hover-color: #404bbf;
+  --general-text-color: #434455;
 }
 a,
 link {
@@ -38,6 +39,7 @@ link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--general-text-color);
 }
                                          /* header */
 .header-logo-studio {
